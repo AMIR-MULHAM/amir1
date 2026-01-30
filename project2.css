@@ -1,0 +1,129 @@
+.navbar .navbar-expand-md{
+    background: rgb(2, 67, 2)
+}
+.py-0{
+    background-color: rgb(6, 51, 46);
+margin-right: 0;
+  
+}
+.word{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 30px;
+}
+body{
+    letter-spacing: 1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    overflow-x: hidden;
+    margin: 0;
+}
+.si{
+    width: 100%;
+    display: block;
+}
+p{
+    text-align: right;
+    position: absolute;
+}
+.we{
+    margin-right: 40px;
+}
+.wa{
+    margin-left: 40px;
+}
+.container{
+    width: 700px;
+    height: 200px;
+    box-sizing: border-box;
+color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+.sev1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.img-thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;  
+}
+.img-fluid{
+    margin-left: 200px;
+    width: 300px;
+    height: 400px;
+}
+.we{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-fluid{
+    margin:100px 0px ;
+}
+#syd{
+    width: 40px;
+    height: 30px;
+}
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+input{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 3px solid;
+    width: 400px;
+    height: 70px;
+    display: block;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(8, 100, 89);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.s {
+  display: flex;         
+  align-items: center;   
+  justify-content: center;
+  gap: 8px;              
+  padding: 8px 20px;
+  border-radius: 20px;
+  background-color: #1d5a52;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.s .icon svg {
+  width: 20px;  
+  height: 20px; 
+  fill: white;  
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+}
+
+
+
+ 
