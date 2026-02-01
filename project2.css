@@ -11,7 +11,14 @@ margin-right: 0;
     margin-bottom: 5px;
     color: white;
     font-size: 30px;
+    text-decoration: none;
 }
+.cont{
+     color: white;
+    font-size: 30px;
+   margin-left: 650px;
+}
+
 body{
     letter-spacing: 1px;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -38,7 +45,7 @@ p{
     width: 700px;
     height: 200px;
     box-sizing: border-box;
-color: white;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,6 +83,7 @@ color: white;
 #syd{
     width: 40px;
     height: 30px;
+    background-color: #1d5a52;
 }
 .form{
     position: relative;
@@ -124,6 +132,17 @@ button:hover{
     transition: 0.3s;
 }
 
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .si{
+        width: 100%;
+        display: block;
+    }
+    .word{
+        margin-left: -20px;
+    }
+}
 
 
- 
