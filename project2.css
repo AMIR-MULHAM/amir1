@@ -13,15 +13,18 @@ margin-right: 0;
     font-size: 30px;
     text-decoration: none;
 }
+.word2:hover{
+text-decoration: none;
+}
 .cont{
      color: white;
-    font-size: 30px;
+    font-size: 29px;
    margin-left: 650px;
 }
 
 body{
     letter-spacing: 1px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:"Bebas Neue", sans-serif;
     font-family: 'Cairo', sans-serif;
     font-size: 20px;
     overflow-x: hidden;
@@ -37,9 +40,14 @@ p{
 }
 .we{
     margin-right: 40px;
+    border-right: 6px solid rgb(2, 67, 2);
+    padding-right: 10px;
 }
 .wa{
     margin-left: 40px;
+     border-left: 6px solid rgb(2, 67, 2);
+    padding-left: 10px;
+    text-align: left;
 }
 .container{
     width: 700px;
@@ -54,7 +62,7 @@ p{
     left: 300px;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.6);
-     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 .sev1{
     display: flex;
@@ -70,6 +78,14 @@ p{
     margin-left: 200px;
     width: 300px;
     height: 400px;
+    transition: 1s;
+    border-radius: 20px;
+}
+.img-fluid:hover{
+    background-color: #1d5a52;
+    transform: scale(1.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.9);;
+    
 }
 .we{
     display: flex;
@@ -84,6 +100,7 @@ p{
     width: 40px;
     height: 30px;
     background-color: #1d5a52;
+    border-radius: 4px;
 }
 .form{
     position: relative;
@@ -101,14 +118,10 @@ input{
     display: block;
     text-align: center;
 }
-button{
-    width: 100px;
-    height: 40px;
-    background-color: rgb(8, 100, 89);
-    border-radius: 20px;
-    margin-bottom: 20px;
-}
+
 .s {
+  width: 100px;
+  height: 40px;
   display: flex;         
   align-items: center;   
   justify-content: center;
@@ -120,6 +133,8 @@ button{
   border: none;
   cursor: pointer;
   font-size: 16px;
+  transition: 0.3s;
+  margin-bottom: 20px;
 }
 
 .s .icon svg {
@@ -129,7 +144,6 @@ button{
 }
 button:hover{
     background-color: rgba(0, 0, 0, 0.7);
-    transition: 0.3s;
 }
 
 @media (max-width: 768px){
@@ -144,5 +158,49 @@ button:hover{
         margin-left: -20px;
     }
 }
+hr{
+  height: 4px;
+  background-color: rgb(72, 69, 69);
+  border: none;
+}
+h2{
+    font-weight: bold;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 10px auto;
+  width: 100%;
+}
 
+.social-icon{
+  fill: black;        
+  stroke: black; 
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 218, 218);
+  transition: 0.5s;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);;
+}
+.social-icon svg{
+  width: 70px;
+  height: 70px;
+}
+.social-icon:hover {
+  background: black;
+}
+
+.special:hover svg {
+  fill: white;
+  stroke: white;
+}
+.esay{
+    padding-right: 12px;
+}
 
